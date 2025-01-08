@@ -14,7 +14,7 @@ bot.onText(/\/start/, (msg) => {
             parse_mode: 'Markdown',
             reply_markup: {
                 keyboard: [
-                    ['🛍️ Browse Products', '🛒 View Cart'],
+                    ['🛍️ Browse Products', '🛒 View Cart', 'Checkout'],
                     ['💬 Contact Support', '📄 FAQs']
                 ],
                 resize_keyboard: true,
