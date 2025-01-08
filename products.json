@@ -1,0 +1,26 @@
+[
+    {
+        "name": "Pineapple",
+        "price": 9.99,
+        "description": "A tropical fruit known for its sweet and tangy flavor, perfect for smoothies or snacking.",
+        "image": "./img/0000000004430.webp"
+    },
+    {
+        "name": "Banana",
+        "price": 19.99,
+        "description": "A nutritious and convenient snack, rich in potassium and great for on-the-go energy.",
+        "image": "./img/11860661469214.jpg"
+    },
+    {
+        "name": "Apple",
+        "price": 29.99,
+        "description": "Crisp, juicy apples that are perfect for eating fresh or baking into pies.",
+        "image": "./img/istockphoto-184276818-612x612.jpg"
+    },
+    {
+        "name": "Mango",
+        "price": 39.99,
+        "description": "Delicious, ripe mangoes with a tropical taste that’s perfect for desserts and drinks.",
+        "image": "./img/Mango.jpg"
+    }
+]

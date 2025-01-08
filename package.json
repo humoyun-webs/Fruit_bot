@@ -1,0 +1,17 @@
+{
+  "name": "telegram_bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "vercel-build": "npm install" 
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "A Telegram Bot for fruit e-commerce",
+  "dependencies": {
+    "dotenv": "^16.4.7",
+    "node-telegram-bot-api": "^0.66.0"
+  }
+}
