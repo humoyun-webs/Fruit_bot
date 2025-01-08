@@ -77,7 +77,7 @@ const handleCart = (chatId) => {
         cartSummary += `🔹 ${index + 1}. *${item.name}* - $${item.price}\n`;
     });
 
-    cartSummary += `\n💲 *Total:* $${items.reduce((sum, item) => sum + item.price, 0)}\n\n✅ Use "Checkout" to complete your purchase.`;
+    cartSummary += `\n💲 *Total:* $${items.reduce((sum, item) => sum + item.price, 0)}\n\n✅ Use "/Checkout" to complete your purchase.`;
     bot.sendMessage(chatId, cartSummary, { parse_mode: 'Markdown' });
 };
 
